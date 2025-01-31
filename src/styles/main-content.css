@@ -1,12 +1,9 @@
-/* HEADER */
-
 .main-container{
     max-width: 80vw;
     height: 100vh;
     margin-left: 320px;
     margin-right: 56px;
 }
-
 .header__navigation {
     display: flex;
     justify-content: space-between;
@@ -17,17 +14,14 @@
     background-color: #121212;
     padding: 12px;
   }
-  
   .header__navigation .navigation {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  
   .header__navigation .navigation .arrow-left {
     margin-right: 1.25rem;
   }
-  
   .arrow-left,
   .arrow-right {
     display: flex;
@@ -41,12 +35,10 @@
     border: none;
     cursor: pointer;
   }
-  
   .header__login {
     display: flex;
     align-items: center;
   }
-  
   .header__search {
     display: flex;
     align-items: center;
@@ -57,13 +49,11 @@
     border-radius: 500px;
     border: 1px solid transparent;
   }
-  
   .header__search img {
     width: 16px;
     height: 16px;
     margin-left: 10px;
   }
-  
   .header__search input {
     background: transparent;
     border: none;
@@ -74,7 +64,6 @@
     white-space: nowrap;
     outline: none;
   }
-  
   .header__login .subscribe {
     color: #a7a7a7;
     font-size: 16px;
@@ -82,7 +71,6 @@
     background-color: transparent;
     margin-right: 32px;
   }
-  
   .header__login .login {
     width: 100px;
     height: 48px;
@@ -91,6 +79,7 @@
     font-weight: 700;
     border-radius: 40px;
   }
+  
 
   /* PLAYLIST */
 .playlist-container {
@@ -100,18 +89,15 @@
   border-radius: 10px;
   background-color: #121212;
 }
-
 .playlist {
   margin: 24px;
 }
-
 .playlist #greeting {
   color: #fff;
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 48px;
 }
-
 .playlist .session {
   color: #fff;
   font-size: 24px;
@@ -124,11 +110,9 @@
   margin: 24px;
   overflow-y: auto;
 }
-
 .offer__scroll-container::-webkit-scrollbar {
   width: 1px;
 }
-
 .offer__scroll-container::-webkit-scrollbar-thumb {
   background-color: transparent;
 }
@@ -148,7 +132,6 @@
   grid-gap: 32px;
   margin: 0 auto;
 }
-
 .cards {
   position: relative; 
   width: 220px;
@@ -156,7 +139,6 @@
   overflow: hidden;
   border-radius: 8px;
 }
-
 .cards span {
   padding: 16px;
   position: absolute;
@@ -229,18 +211,15 @@
   --grid-gap: 24px;
   --min-container-width: 372px;
 }
-
 .hidden {
   display: none;
 }
-
 .grid-container {
   grid-gap:24px;
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   min-width: 767px;
 }
-
 .artist-card {
   background: #181818;
   border-radius: 8px;
@@ -252,18 +231,15 @@
   transition: background-color 0.3s ease;
   width: 100%;
 }
-
 .artist-card:hover {
   background-color: #252525;
 }
-
 .card-img {
   padding-bottom: 100%;
   position: relative;
   width: 100%;
   margin-bottom: 16px;
 }
-
 .artist-img {
   height: 100%;
   left: 0;
@@ -272,7 +248,6 @@
   width: 100%;
   border-radius: 50%;
 }
-
 .card-text {
   display: flex;
   flex-direction: column;
@@ -282,13 +257,11 @@
   white-space: nowrap;
   min-height: 62px;
 }
-
 .card-text a {
   display: inline-block;
   max-width: 100%;
   vertical-align: middle;
 }
-
 .artist-name {
   box-sizing: border-box;
   margin-block: 0px;
@@ -296,17 +269,14 @@
   font-weight: 700;
   padding-block-end: 8px;
 }
-
 .artist-categorie {
   color: #6a6a6a;
   font-weight: 400;
   font-size: 0.875rem;
 }
-
 .play {
   position: relative;
 }
-
 .play .fa-play {
   position: absolute;
   right: 10px;
@@ -318,17 +288,14 @@
   opacity: 0;
   transition: all ease 0.4s;
 }
-
 .artist-card:hover .play .fa-play {
   opacity: 1;
   transform: translateY(-20px);
 }
-
 .play .fa-play:hover {
   padding: 20px;
   cursor: pointer;
 }
-
 #result-artist {
   padding: 20px 40px;
 }
